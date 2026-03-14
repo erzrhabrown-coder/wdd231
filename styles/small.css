@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    
+    nav ul {
+        display: block;
+        text-align: center;
+        
+    }
+    main{
+        display: flexbox;
+    }
+  
+}
