@@ -3,53 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ezra Ato Brown">
-    <meta name="description" content="WDD 231 - Web Development II">
-    <title>wdd231</title>
-    <script src="scripts/course.js" defer></script>
-    <script src="scripts/dates.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/small.css">
-</head>
-<body>
-    <header>
-            <div class="logo">Logo</div>
-            <h1>WDD 231 - Ezra Ato Brown</h1>
-    </header>
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Chamber.html">Chamber</a></li>
-            <li><a href="Final.html">Final</a></li>
-        </ul>
-   </nav>
-    <main>
 
-         <h1>Home</h1>
-        <section class="section1">
-           <h2>About Me</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto tempore, neque cumque fuga quae animi porro suscipit vero et perferendis praesentium iste dolor at, beatae optio dolorem hic natus!</p>
-        </section>
-        <section class="section2">
-           <h2>Student photo</h2>
-           <img src="images/Erz_compressed.jpg">
-        </section>
-        <section class="section3">
-            <h2 >Web Certificate courses</h2>
-        </section>
-    </main>
-    <footer>
-        <p class="soc">
-        <a href="https://github.com/erzrhabrown-coder/wdd231">Github |</a>
-        <a href="https://www.linkedin.com/feed/">LinkedIn |</a>
-        <a href="https://www.facebook.com"> Facebook</a>
+    <title>Ezra Ato Brown | WDD 231 Course Home</title>
+
+    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="author" content="Ezra Brown">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+    <button id="menu" aria-label="Menu" aria-expanded="false">☰</button>
+    
+    <img class="logo" src="images/Red Burgundy Cream Elegant Wedding Logo.png" alt="Logo" id="logo" >
+    <span>Ezra Ato Brown</span>
+    <nav>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="final/">Final</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Home</h1>
+    <div id="about-me">
+    <section >
+        <h2>Student Photo</h2>
+        <img id="student-photo" src="images/Erz_compressed.jpg" alt="Ezra Ato Brown" >
+    </section>
+    <section>
+        <h2>About Me</h2>
+        <p>My name is Ezra Ato Brown. I am a Ghanaian and an online student of BYU Idaho. I am a passionate web developer with a strong foundation in both frontend and backend technologies. 
+            I enjoy creating interactive and user-friendly websites that provide excellent user experiences. I am constantly learning and staying updated with the latest trends in web development to enhance my skills and deliver high-quality solutions.
         </p>
-        
-        <p id="currentyear"> </p>
-        <p class="soc"> All rights reserved | Designed by: Ezra Ato Brown - Ghana, Accra.</p>
+    </section>
+</div>
+
+<section >
+    <button id="all">All</button>
+    <button id="wdd">WDD</button>
+    <button id="cse">CSE</button>
+
+    <div id="course-container"></div>
+
+    <p id="total-credits"></p>
+</section>
+
+</main>
+
+<footer>
+
+    <div class="socials">
+        <a href="https://github.com/erzrhabrown-coder/wdd231.git"
+           target="_blank"
+           aria-label="GitHub Profile">
+            <img src="images/github.svg" alt="GitHub" width="32" height="32">
+        </a>
+
+        <a href="www.linkedin.com/in/ezra-ato-brown-3253651a8"
+           target="_blank"
+           aria-label="LinkedIn Profile">
+            <img src="images/icons8-linkedin.svg" alt="LinkedIn" width="32" height="32">
+        </a>
+
+        <a href="https://facebook.com"
+           target="_blank"
+           aria-label="Facebook Profile">
+            <img src="images/facebook.svg" alt="Facebook" width="32" height="32">
+        </a>
+    </div>
+
+    <div class="footer-info">
+        <p>
+            &copy; <span id="currentyear"></span> |
+            Ezra Ato Brown | Ghana
+        </p>
+
         <p id="lastModified"></p>
-    </footer>
+    </div>
+
+</footer>
+
 
 </body>
 </html>

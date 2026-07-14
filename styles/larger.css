@@ -1,0 +1,108 @@
+
+
+/* Hide Hamburger */
+
+#menu {
+    display: none;
+}
+
+/* Horizontal Navigation */
+
+#nav-links {
+    display: flex;
+   
+
+}
+
+
+
+#nav-links a {
+    padding: 1rem 1.5rem;
+    
+}
+
+
+/* Header */
+
+header {
+    padding: 1rem 2rem;
+}
+
+
+/* Course Cards */
+
+#course-container{
+    grid-template-columns: repeat(3, 1fr);
+}
+/*Footer*/
+
+footer {
+    background-color: #005792;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.socials img {
+    width: 35px;
+    height: 35px;
+    transition: transform .3s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.15);
+}
+
+.footer-info p {
+    margin: .5rem 0;
+}
+
+#about-me {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+
+    
+}
+#student-photo {
+    
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #005792;
+    color: white;
+    margin: 1rem 0;
+    border: none;
+    
+     }
+     button:hover {
+        font-size: 1.25rem;
+
+        
+     }
+     #logo {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin-right: 1rem;
+        border-radius: 50%;
+     }
+     
+    

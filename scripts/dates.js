@@ -1,7 +1,8 @@
-const currenty = new Date().getFullYear();
+// Current Year
+const year = new Date().getFullYear();
 
-document.querySelector("#currentyear").innerHTML =  `&copy; ${currenty} Accra, Ghana. Chamber of Commerce.`;
+document.getElementById("currentyear").textContent = year;
 
-const docMod =(document.lastModified);
-
-document.querySelector("#lastModified").textContent =  `Last Modified: ${docMod}`;
+// Last Modified Date
+document.getElementById("lastModified").textContent =
+    `Last Modified: ${document.lastModified}`;
