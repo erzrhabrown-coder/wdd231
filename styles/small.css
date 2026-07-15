@@ -222,5 +222,20 @@ img {
     height: auto;
 }
 
+button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #005792;
+    color: white;
+    margin: 1rem 0;
+    border: none;
+    
+     }
+     button:hover {
+        font-size: 1.25rem;
+
+        
+     }
 
 
