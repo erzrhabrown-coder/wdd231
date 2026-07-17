@@ -1,0 +1,24 @@
+/*Using a CSS Grid, use the auto-fit value to ensure that the page is responsive.*/
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* Style each card with a border, padding, and a box shadow for a subtle 3D effect. */
+section {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+}
+h2,p {
+    text-align: center;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+
+h2, .google-sans {
+    font-family: 'Google Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
+
+    }
+
+    p, .times-new-roman{
+      font-family:'Times New Roman', serif;
+  
+    }
+    body{
+      max-width: 1200px;
+      margin: 0 auto;
+      color: black;
+
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      padding: 15px;
+      background-color: #974444;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+  .section-1 {
+    background-color: #974444;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+  }
+ 
+ 
+  footer {
+    background-color: #974444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }

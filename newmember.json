@@ -1,0 +1,25 @@
+{
+    "family name": "Atuah",
+    "Date-moved" : "21-2-2026",
+    "number of records" : 3,
+    "BishopricVisit" : true,
+    "famiy members": [
+        {
+        "name" : "Dennish",
+        "gender": "male",
+        "birthdate" : "21-02-1990"
+        },
+        {
+        "name" : "Jackline",
+        "gender": "female",
+        "birthdate" : "21-02-1997"
+        },
+        {
+        "name" : "Gifty",
+        "gender": "female",
+        "birthdate" : "21-02-1992"
+        }
+]
+
+
+ }
