@@ -267,6 +267,8 @@ footer {
 
 
 .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 94%;
     max-width: 1200px;
     margin: 0 auto;
@@ -276,9 +278,11 @@ footer {
 
 footer h3 {
     color: var(--accent);
+    text-align: center;
 }
 
 
 footer p {
     margin: 0.5rem 0;
+    text-align:center;
 }
