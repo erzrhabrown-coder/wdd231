@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Accra Business Solutions",
+        "address": "24 Ring Road Central, Accra, Ghana",
+        "phone": "+233 30 255 0101",
+        "website": "https://example.com",
+        "image": "business.jpg",
+        "membershipLevel": 3,
+        "description": "Business consulting and professional services for growing companies in Accra."
+    },
+    {
+        "name": "Gold Coast Logistics",
+        "address": "18 North Industrial Area, Accra, Ghana",
+        "phone": "+233 30 266 0202",
+        "website": "https://example.com",
+        "image": "GoldCoast.jpg",
+        "membershipLevel": 2,
+        "description": "Logistics, transportation, warehousing, and supply chain services."
+    },
+    {
+        "name": "Ghana Agro Ventures",
+        "address": "12 Liberation Road, Accra, Ghana",
+        "phone": "+233 24 300 0303",
+        "website": "https://example.com",
+        "image": "Agro.jpg",
+        "membershipLevel": 1,
+        "description": "Agricultural products and services supporting businesses and communities."
+    },
+    {
+        "name": "Accra Tech Solutions",
+        "address": "45 Osu Oxford Street, Accra, Ghana",
+        "phone": "+233 20 400 0404",
+        "website": "https://example.com",
+        "image": "Tech.jpg",
+        "membershipLevel": 3,
+        "description": "Technology solutions, web development, and digital business services."
+    },
+    {
+        "name": "Capital Business Consultants",
+        "address": "7 Airport City, Accra, Ghana",
+        "phone": "+233 30 277 0505",
+        "website": "https://example.com",
+        "image": "Gold.jpg",
+        "membershipLevel": 2,
+        "description": "Business strategy, accounting, and management consulting services."
+    },
+    {
+        "name": "Green City Construction",
+        "address": "31 Spintex Road, Accra, Ghana",
+        "phone": "+233 24 600 0606",
+        "website": "https://example.com",
+        "image": "Construction.jpg",
+        "membershipLevel": 1,
+        "description": "Construction and property development services in the Greater Accra area."
+    },
+    {
+        "name": "West Africa Trade Services",
+        "address": "9 Independence Avenue, Accra, Ghana",
+        "phone": "+233 20 700 0707",
+        "website": "https://example.com",
+        "image": "Trader.jpg",
+        "membershipLevel": 3,
+        "description": "Trade support and business networking services for companies operating in West Africa."
+    }
+]
